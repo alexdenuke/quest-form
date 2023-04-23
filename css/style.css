@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'sans-regular';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'sans-regular', sans-serif;
+    font-weight: 400;
+}
+.container {
+    margin: 0 auto;
+    
+}
+.header {
+    background-color: rgba(59, 72, 91, 1);
+    padding: 50px 200px;
+    
+
+}
+.yellow {
+    color: rgba(248, 213, 48, 1);
+}
+.title-wrap-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 100px; */
+}
+.logo {
+    margin-right: 30px;
+}
+.logo-img {
+    width: 100px;
+}
+.title-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 80px;
+    color: white;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.sub-title {
+    font-size: 30px;
+    color: rgba(113, 126, 142, 1);
+    margin-top: 5px;
+    font-weight: 700;
+}
+.header-txt {
+    /* font-family: 'name', sans-serif; */
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 30px;
+    font-weight: 700;
+
+}
+.main {
+    background-color: rgba(121, 187, 213, 1);
+    padding: 0px 200px;
+}
+.main-txt {
+    font-size: 14px;
+    padding-top: 30px;
+}
+.txt-white {
+    color: white;
+}
+.strong {
+    font-weight: 700;
+    line-height: 1.5;
+}
+.main-form {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.main-form-discont {
+    display: block;
+    margin-top: 30px;
+
+
+
+}
+.main-form-discont-btn {
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.main-form-value {
+    font-size: 30px;
+    padding: 10px 0px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.main-form-link {
+    display: block;
+    margin-top: 30px;
+
+}
+.main-form-btn {
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.btn1 {
+    background-color: rgba(227, 0, 11, 1);
+}
+
+.btn2 {
+    background-color: rgba(227, 72, 0, 1);
+}
+
+.btn3 {
+    background-color:rgba(247, 101, 3, 1);
+}
+.btn4 {
+    background-color: rgba(247, 158, 15, 1);
+}
+.btn5 {
+    background-color: rgba(255, 215, 31, 1);
+}
+.btn6 {
+    background-color: rgba(176, 203, 31, 1);
+}
+.btn7 {
+    background-color: rgba(98, 138, 44, 1);
+}
+.btn8 {
+    background-color: rgba(0, 105, 39, 1);
+}
+.btn9 {
+    background-color: rgba(5, 145, 56, 1);
+}
+.btn10 {
+    background-color: rgba(0, 184, 67, 1);
+}
+
+.main-form-value::placeholder {
+    text-align: center;
+    color: rgba(197, 198, 198, 1);
+}
+.footer {
+    position: relative;
+    width: 100%;
+}
+.footer-txt {
+    position: absolute;
+    text-align: center;
+    top: 50px;  
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    color: white;
+}
+.footer-img {
+    width: 100%;
+}
+
+
