@@ -7,6 +7,18 @@ body {
     font-family: 'sans-regular', sans-serif;
     font-weight: 400;
 }
+body a {
+    color: black;
+}
+.link {
+    font-size: 30px;
+    padding: 20px 40px;
+    background-color: #fff;
+    display: block;
+    width: max-content;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 .container {
     margin: 0 auto;
     
