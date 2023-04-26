@@ -1,0 +1,119 @@
+@media(max-width: 1250px) {
+    .header {
+        padding: 40px 50px;
+    }
+    .main {
+        padding: 0px 50px;
+    }
+}
+
+
+@media(max-width: 1000px) {
+    .logo-img {
+        width: 80px;
+    }
+    .logo {
+        margin-right: 25px;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .sub-title {
+        font-size: 20px;
+    }
+    .header-txt {
+        font-size: 25px;
+    }
+    .strong {
+        font-size: 22px;
+    }
+    .form-title {
+        font-size: 30px;
+    }
+}
+
+
+@media(max-width: 776px) {
+    .header {
+        padding: 30px 20px;
+    }
+    .main {
+        padding: 0px 20px;
+    }
+    .logo-img {
+        width: 60px;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .sub-title {
+        font-size: 18px;
+    }
+    .header-txt {
+        font-size: 20px;
+    }
+    .strong {
+        font-size: 20px;
+    }
+    .form-title {
+        font-size: 25px;
+    }
+    .form-label-title {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 500px) {
+    .link {
+        padding: 16px 32px;
+        font-size: 16px;
+    
+    }
+    .seagull {
+        height: 48px;
+        margin-right: 20px;
+    }
+    .seagull2 {
+        height: 48px;
+        margin-left: 20px;
+    }
+    .form-input {
+        width: 250px;
+    }
+    .header {
+        padding: 20px 15px;
+    }
+    .main {
+        padding: 0px 15px;
+    }
+    .logo-img {
+        width: 50px;
+    }
+    .logo {
+        margin-right: 15px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .sub-title {
+        font-size: 16px;
+    }
+    .header-txt {
+        font-size: 20px;
+    }
+    .strong {
+        font-size: 18px;
+    }
+    .form-title {
+        font-size: 20px;
+    }
+    .form-label-title {
+        font-size: 20px;
+    }
+    .main-txt-title {
+        font-size: 25px;
+    }
+}

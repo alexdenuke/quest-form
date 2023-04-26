@@ -8,7 +8,9 @@
     <title>Форма</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/media.css">
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -21,7 +23,7 @@
                     <p class="sub-title">больше чем квест</p>
                 </div>
             </div>
-            <p class="header-txt">ПОДЕЛИТЕСЬ ВПЕЧАТЛЕНИЯМИ ОТ КВЕСТА</p>
+            <p class="header-txt">ОЦЕНИТЕ КВЕСТ И ПОЛУЧИТЕ БОНУСЫ</p>
         </div>
         <section class="main">
             <!-- <p class="main-txt">
@@ -42,55 +44,55 @@
                 Дата посещения: 4 декабря 2021 в 22:15
             </p>
             <!-- <a class="link" href="/html/form.html">ОЦЕНИТЬ</a> -->
-            <form class="form" action="">
+            <form id="tg" class="form" action="">
                 <legend class="form-title">
                     Оцените вашу игру
                 </legend>
                 <label class="form-label" for="">
                     <p class="form-label-title">1. Ваше имя</p>
-                    <input class="form-input" type="text">
-                </label>
-                
-                <label class="form-label" for="">
-                    <p class="form-label-title">2. Ваш Телефон</p>
-                    <input class="form-input" type="text">
+                    <input class="form-input" type="text" name="name">
                 </label>
 
-                
+                <label class="form-label" for="">
+                    <p class="form-label-title">2. Ваш Телефон</p>
+                    <input class="form-input" type="text" name="tel">
+                </label>
+
+
                 <label class="form-label" for="">
                     <p class="form-label-title">3. Ваша Почта</p>
-                    <input class="form-input" type="text">
+                    <input class="form-input" type="email" name="email">
                 </label>
-                
+
                 <label class="form-label label-opt" for="">
                     <p class="form-label-title">4. Качество оказанных услуг?</p>
-                    <select class="form-select" name="" id="">
-                        <option class="form-option" value="">1</option>
-                        <option class="form-option" value="">2</option>
-                        <option class="form-option" value="">3</option>
-                        <option class="form-option" value="">4</option>
-                        <option class="form-option" value="">5</option>
-                        <option class="form-option" value="">6</option>
-                        <option class="form-option" value="">7</option>
-                        <option class="form-option" value="">8</option>
-                        <option class="form-option" value="">9</option>
-                        <option class="form-option" value="">10</option>
+                    <select class="form-select" id="" name="quality">
+                        <option class="form-option" value="1" >1</option>
+                        <option class="form-option" value="2" >2</option>
+                        <option class="form-option" value="3" >3</option>
+                        <option class="form-option" value="4" >4</option>
+                        <option class="form-option" value="5" >5</option>
+                        <option class="form-option" value="6" >6</option>
+                        <option class="form-option" value="7" >7</option>
+                        <option class="form-option" value="8" >8</option>
+                        <option class="form-option" value="9" >9</option>
+                        <option class="form-option" value="10"">10</option>
                     </select>
                 </label>
-                <label class="form-label" for="">
+                <label class="form-label" for="" >
                     <p class="form-label-title">5. Предоставли скидку или нет?</p>
                     <label class="form-label label-radio" for="">
-                        <input class="form-input-radio" name="answer" type="radio">
+                        <input class="form-input-radio" name="discont" value="Да"  type="radio">
                         Да
                     </label>
                     <label class="form-label label-radio" for="">
-                        <input class="form-input-radio" name="answer" type="radio">
+                        <input class="form-input-radio" name="discont" value="Нет"  type="radio">
                         Нет
                     </label>
                 </label>
                 <label class="form-label" for="">
                     <p class="form-label-title">6. Какую стоимость оплатили за услуги?</p>
-                    <input class="form-input" placeholder="введите сумму" type="text">
+                    <input class="form-input" placeholder="введите сумму" type="text" name="cost">
                 </label>
                 <button class="form-submit" type="submit">Отправить</button>
 
@@ -108,7 +110,8 @@
 
     </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="/js/style.js"></script>
 </body>
+
 </html>
