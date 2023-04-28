@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Форма</title>
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/form.css">
-    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/form.css?v=3">
+    <link rel="stylesheet" href="/css/media.css?v=3">
 </head>
 
 <body>
+
     <div class="container">
         <div class="header">
             <div class="title-wrap-wrap">
@@ -26,14 +27,6 @@
             <p class="header-txt">ОЦЕНИТЕ КВЕСТ И ПОЛУЧИТЕ БОНУСЫ</p>
         </div>
         <section class="main">
-            <!-- <p class="main-txt">
-                Если вы читаете это письмо, вероятно, ваша смелая команда уже сумела выбраться из квеста
-                «Сокровище бога Ра» от компании «Карта Капитана», забронированного на сайте «Карта капитана»
-            </p>
-            <p class="main-txt">
-                Мы болеем за вас на протяжении всей игры и надеемся, что вам и вашим друзьям понравилось!
-                Спасибо что бронируете квесты на нашем портале!
-            </p> -->
             <p class="main-txt width">
                 Пожалуйста, уделите немного времени, чтобы улучшить наш сервис, рассказав тысячам искателей приключений
                 о том,
@@ -43,7 +36,6 @@
                 Квест: «Сокровища бога Ра» <br>
                 Дата посещения: 4 декабря 2021 в 22:15
             </p>
-            <!-- <a class="link" href="/html/form.html">ОЦЕНИТЬ</a> -->
             <form id="tg" class="form" action="">
                 <legend class="form-title">
                     Оцените вашу игру
@@ -67,51 +59,57 @@
                 <label class="form-label label-opt" for="">
                     <p class="form-label-title">4. Качество оказанных услуг?</p>
                     <select class="form-select" id="" name="quality">
-                        <option class="form-option" value="1" >1</option>
-                        <option class="form-option" value="2" >2</option>
-                        <option class="form-option" value="3" >3</option>
-                        <option class="form-option" value="4" >4</option>
-                        <option class="form-option" value="5" >5</option>
-                        <option class="form-option" value="6" >6</option>
-                        <option class="form-option" value="7" >7</option>
-                        <option class="form-option" value="8" >8</option>
-                        <option class="form-option" value="9" >9</option>
+                        <option class="form-option" value="1">1</option>
+                        <option class="form-option" value="2">2</option>
+                        <option class="form-option" value="3">3</option>
+                        <option class="form-option" value="4">4</option>
+                        <option class="form-option" value="5">5</option>
+                        <option class="form-option" value="6">6</option>
+                        <option class="form-option" value="7">7</option>
+                        <option class="form-option" value="8">8</option>
+                        <option class="form-option" value="9">9</option>
                         <option class="form-option" value="10"">10</option>
                     </select>
                 </label>
-                <label class="form-label" for="" >
-                    <p class="form-label-title">5. Предоставли скидку или нет?</p>
-                    <label class="form-label label-radio" for="">
-                        <input class="form-input-radio" name="discont" value="Да"  type="radio">
-                        Да
-                    </label>
-                    <label class="form-label label-radio" for="">
-                        <input class="form-input-radio" name="discont" value="Нет"  type="radio">
-                        Нет
-                    </label>
+                <label class=" form-label" for="">
+                            <p class="form-label-title">5. Предоставли скидку или нет?</p>
+                            <label class="form-label label-radio" for="">
+                                <input class="form-input-radio" name="discont" value="Да" type="radio">
+                                Да
+                            </label>
+                            <label class="form-label label-radio" for="">
+                                <input class="form-input-radio" name="discont" value="Нет" type="radio">
+                                Нет
+                            </label>
                 </label>
                 <label class="form-label" for="">
                     <p class="form-label-title">6. Какую стоимость оплатили за услуги?</p>
                     <input class="form-input" placeholder="введите сумму" type="text" name="cost">
                 </label>
+                <label class="form-label" for="">
+                    <p class="form-label-title">Оставьте комментарий</p>
+                    <textarea class="form-textarea" name="comment" id="" cols="22" rows="7"></textarea>
+                </label>
                 <button class="form-submit" type="submit">Отправить</button>
-
-
-
             </form>
+
+            <div class="popup">
+                <div class="popup-body">
+                    <p class="popup-title">Спасибо за уделённое время</p>
+                    <p class="popup-subtitle">Ваш отзыв поможет в улучшении сервиса</p>
+                    <a class="popup-link" href="https://capcard.ru">Вернуться</a>
+                </div>
+            </div>
 
         </section>
         <div class="footer">
             <img class="footer-img" src="/img/footer-img.jpg" alt="">
-            <!-- <p class="footer-txt">
-                Оценить квест, оставить о нем отзыв можно до 00:17 12 декабря 2021 г.
-            </p> -->
         </div>
 
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="/js/style.js"></script>
+    <script src="/js/style.js?v=3"></script>
 </body>
 
 </html>

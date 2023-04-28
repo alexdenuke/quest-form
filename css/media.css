@@ -116,4 +116,30 @@
     .main-txt-title {
         font-size: 25px;
     }
+
+    .popup-body {
+        width: 300px;
+        height: 300px;
+    }
+
+    .popup-title {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .popup-subtitle {
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .popup-link {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #fff;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
 }
