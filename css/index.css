@@ -8,9 +8,11 @@ body {
     font-weight: 400;
     line-height: 1.4;
 }
+
 body a {
     color: black;
 }
+
 .link {
     background-color: #fff;
     color: rgba(59, 72, 91, 1);
@@ -22,25 +24,36 @@ body a {
     font-weight: bold;
     border-radius: 4px;
     border: none;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 
 }
+
 .link:hover {
     background-color: rgba(59, 72, 91, 1);
     color: #fff;
     cursor: pointer;
-  }
+}
+
 .seagull {
     height: 58px;
     margin-right: 20px;
 }
+
 .seagull2 {
     height: 58px;
     margin-left: 20px;
 }
+
 .link-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 20px;
 }
@@ -48,41 +61,61 @@ body a {
 .container {
     margin: 0 auto;
 }
+
 .header {
     background-color: rgba(59, 72, 91, 1);
     padding: 50px 200px;
 }
+
 .yellow {
     color: rgba(248, 213, 48, 1);
 }
+
 .title-wrap-wrap {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
+
 .logo {
     margin-right: 30px;
 }
+
 .logo-img {
     width: 100px;
 }
+
 .title-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
+
 .title {
     font-size: 80px;
     color: white;
     font-weight: 700;
     white-space: nowrap;
 }
+
 .sub-title {
     font-size: 30px;
     color: rgba(113, 126, 142, 1);
     margin-top: 5px;
     font-weight: 700;
 }
+
 .header-txt {
     font-size: 40px;
     color: white;
@@ -92,35 +125,42 @@ body a {
     font-weight: 700;
 
 }
+
 .main {
     background-color: rgba(121, 187, 213, 1);
     padding: 0px 200px;
 }
+
 .main-txt {
     font-size: 14px;
     padding-top: 30px;
 }
+
 .main-txt-title {
     font-size: 30px;
     color: white;
     font-weight: 700;
 }
+
 .strong {
     font-size: 25px;
     font-weight: 700;
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
 .main-form {
     color: white;
     font-size: 40px;
     font-weight: 700;
     margin-top: 30px;
 }
+
 .main-form-discont {
     display: block;
     margin-top: 30px;
 }
+
 .main-form-discont-btn {
     font-size: 30px;
     color: white;
@@ -129,6 +169,7 @@ body a {
     border-radius: 10px;
     font-weight: 700;
 }
+
 .main-form-value {
     font-size: 30px;
     padding: 10px 0px;
@@ -136,6 +177,7 @@ body a {
     border-radius: 10px;
     margin-top: 30px;
 }
+
 .main-form-link {
     display: block;
     margin-top: 30px;
@@ -153,6 +195,30 @@ body a {
 }
 
 
+.main-form-value::-webkit-input-placeholder {
+    text-align: center;
+    color: rgba(197, 198, 198, 1);
+}
+
+
+.main-form-value::-moz-placeholder {
+    text-align: center;
+    color: rgba(197, 198, 198, 1);
+}
+
+
+.main-form-value:-ms-input-placeholder {
+    text-align: center;
+    color: rgba(197, 198, 198, 1);
+}
+
+
+.main-form-value::-ms-input-placeholder {
+    text-align: center;
+    color: rgba(197, 198, 198, 1);
+}
+
+
 .main-form-value::placeholder {
     text-align: center;
     color: rgba(197, 198, 198, 1);
@@ -160,22 +226,25 @@ body a {
 
 .padding-to-footer {
     padding-bottom: 50px;
-} 
+}
+
 .footer {
     position: relative;
     width: 100%;
 }
+
 .footer-txt {
     position: absolute;
     text-align: center;
-    top: 50px;  
+    top: 50px;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: 100;
     color: white;
 }
+
 .footer-img {
     width: 100%;
 }
-
-
